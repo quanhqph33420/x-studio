@@ -12,4 +12,6 @@ http
 jsonwebtoken
 mongoose
 nodemon
-
+react-native-screens
+react-native-safe-area-context
+@react-navigation/native-stack

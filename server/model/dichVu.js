@@ -1,9 +1,9 @@
-const monoose = require("mongoose");
+const mongoose = require('mongoose');
 const schema = new mongoose.Schema({
   tendichvu: String,
-  trangthai: Number,  
+  trangthai: Number,
   mota: String,
   giatien: Number,
 });
-const model = monoose.model("dich_vus", schema);
+const model = mongoose.model('dich_vus', schema);
 module.exports = model;
