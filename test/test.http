@@ -1,0 +1,7 @@
+POST http://192.168.41.55:8000/congviec/xoaCV HTTP/1.1
+Content-Type: application/json
+
+{
+   "idcongviec":"65fc529afb911f0031ad0dd0",
+   "idnhanvien": "1"
+}
