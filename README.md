@@ -1,7 +1,9 @@
-# Di chuyển thư mục node-module ra ngoài trước khi commit
-# Khi lấy về thì chạy lệnh để tải lại thư viện
-# Ai có thêm thư viện gì thì điền vô đây
-
+# Chú ý
+# ----------------------------------------
+- Trước khi đẩy lên git, kéo thư mục node_module ra ngoài
+- Ai cài thư viện nào thì ghi rõ ở đây để tránh tải về không chạy được
+# ----------------------------------------
+# Thư viện
 npm install
 axios
 dotenv
@@ -10,3 +12,4 @@ http
 jsonwebtoken
 mongoose
 nodemon
+
